@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{A25C2191-4084-AE0C-AB95-83B38D06A774}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "BrightBrawl",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
