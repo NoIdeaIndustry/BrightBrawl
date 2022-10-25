@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class BrightBrawlTarget : TargetRules
 {
-	public BrightBrawlTarget(TargetInfo Target) : base(Target)
+	public BrightBrawlTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("BrightBrawl");
+		ExtraModuleNames.AddRange( new string[] { "BrightBrawl" } );
 	}
 }

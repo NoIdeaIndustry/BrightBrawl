@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class BrightBrawlEditorTarget : TargetRules
 {
-	public BrightBrawlEditorTarget(TargetInfo Target) : base(Target)
+	public BrightBrawlEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("BrightBrawl");
+		ExtraModuleNames.AddRange( new string[] { "BrightBrawl" } );
 	}
 }
